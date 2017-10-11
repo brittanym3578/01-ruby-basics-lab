@@ -1,23 +1,22 @@
-def division
-    
+def division(num,num2)
+    return num / num2
 end
 
-def argue
-  
+def argue(argument)
+  return argument
 end
 
-def greeting
-
+def greeting(greeting,name)
 end
 
 def return_a_value
-    
+    "Nice"
 end
 
-def pizza_party
-    
+def pizza_party(topping="cheese")
+    topping
 end
 
-def whisper
-    
+def whisper(phrase)
+    phrase.downcase
 end
